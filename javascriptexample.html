@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Javascript Calulator</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+    <h1>My Portfolio</h1>
+    <p>Angelos Konstantidelis| NYIT | Computer Science | 2013</p>
+  </div>
+    <div id="leftside">
+		<nav>
+        <ul>
+            <li><a href="portfolio.html"> My Resume</a></li>
+            <li><a href="phpexample.html"> PHP Survey</a></li>
+            <li><a href="contact.html"> Contact me</a></li>
+            <li><a href="about.html"> About this Page</a></li>
+            
+            </ul>
+            </nav>
+	</div>
+	<div id="content">
+		<h1> Calulator </h1>
+   <script type="text/JavaScript">  
+	function multiply()
+	{  
+	a=Number(document.calculator.number1.value);  
+	b=Number(document.calculator.number2.value);  
+	c=a*b;  
+	document.calculator.total.value=c;  
+	}  
+</script>  
+  
+	<script type="text/javascript">  
+		function addition()
+	{ 
+		a=Number(document.calculator.number1.value);  
+		b=Number(document.calculator.number2.value);  
+		c=a+b;  
+		document.calculator.total.value=c;  
+	}  
+</script>  
+  
+	<script type="text/javascript">  
+function subtraction()
+{  
+	a=Number(document.calculator.number1.value);  
+	b=Number(document.calculator.number2.value);  
+	c=a-b;  
+	document.calculator.total.value=c;  
+}  
+</script>  
+  
+<script type="text/javascript">  
+function division()
+{  
+	a=Number(document.calculator.number1.value);  
+	b=Number(document.calculator.number2.value);  
+	c=a/b;  
+	document.calculator.total.value=c;  
+}  
+</script>  
+
+</head>  
+  
+<body>  
+  
+  
+<form name="calculator">  
+1st value: <input type="number" name="number1">   
+</br>
+    
+2nd value: <input type="number" name="number2">   
+</br>  
+    
+The Result: <input type="number" name="total">   
+</br>  
+  
+  
+<input type="button" value="+" onclick="javascript:addition();">  
+<input type="button" value="-" onclick="javascript:subtraction();">  
+<input type="button" value="*" onclick="javascript:multiply();">  
+<input type="button" value="/" onclick="javascript:division();">   
+<input type="button" value="Print Your Results" onClick="window.print()" />
+
+		
+	</div>
+</body>
+</html>
