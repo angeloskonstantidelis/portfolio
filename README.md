@@ -1,4 +1,4 @@
-Check below to view my portfolio
+Click below to view my portfolio
 =========
 http://angeloskonstantidelis.github.com/portfolio/
 
